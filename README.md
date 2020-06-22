@@ -4,6 +4,19 @@ A small SilverStripe module that provides logged in users with a front-end `Edit
 
 ## Setup
 
+Add this par to your project's `composer.json` file
+
+```composer
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/evanshunt/CMSEditLink"
+        }
+    ],
+```
+
+Then from where you have the `composer.json` file run `composer require evanshunt/CMSEditLink`
+
 Add the extension to your site's yml configuration
 
 ```yaml
