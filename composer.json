@@ -1,0 +1,26 @@
+{
+	"name": "evanshunt/CMSEditLink",
+	"description": "A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.",
+	"type": "silverstripe-vendormodule",
+	"homepage": "http://github.com/evanshunt/CMSEditLink",
+	"keywords": ["silverstripe", "CMS Edit Link"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Evans Hunt",
+			"email": "devs@evanshunt.com"
+		}
+	],
+	"support": {
+		"issues": "http://github.com/evanshunt/CMSEditLink/issues"
+	},
+	"require": {
+		"silverstripe/framework": "^4",
+		"silverstripe/cms": "^4"
+	},
+	"autoload": {
+		"psr-4": {
+			"evanshunt\\CMSEditLink\\": "src/"
+		}
+	}
+}
