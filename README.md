@@ -14,7 +14,7 @@ Page:
 
 ```
 
-Then on your `Page.ss` or if you only want to enabel it on specific pages, then only add it to those pages' templates; add `$EditLink()`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
+Then on your `Page.ss` or if you only want to enabel it on specific pages, then only add it to those pages' templates; add `$EditURL()`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
 
 Changelog:
 
