@@ -1,31 +1,21 @@
 <?php
+namespace evanshunt\CMSEditLink;
 
 use SilverStripe\ORM\DataExtension;
-use Silverstripe\Security\Security;
 use SilverStripe\ORM\FieldType\DBField;
+use SilverStripe\ORM\FieldType\DBHTMLText;
+use SilverStripe\Security\Security;
+
 
 use SilverStripe\Dev\Debug;
 
 class CMSEditLink extends DataExtension
 {
-    private static $db = [
-
-    ];
-
-    private static $many_many = array(
-    );
-
-    private static $has_one = [];
-
-    private static $hide_ancestor = 'Page';
-    private static $table_name = 'CMSEditLink';
-
-
 
     public function EditURL(){
 
         if ($member = Security::getCurrentUser()) {
-            return DBField::create_field(HTMLFragment::class,"<a href='admin/pages/edit/show/".$this->owner->ID."/' style='
+            return DBField::create_field('HTMLFragment',"<a href='admin/pages/edit/show/".$this->owner->ID."/' style='
             position: fixed;
             z-index: 1000;
             bottom: 0;
@@ -36,6 +26,8 @@ class CMSEditLink extends DataExtension
             color: #fff;
             ' target='_blank' rel='nofollow'>Edit</a>");
         }
+
+        return NULL;
     }
 
 }

@@ -4,7 +4,7 @@ A small SilverStripe module that provides logged in users with a front-end `Edit
 
 ## Setup
 
-Add this par to your project's `composer.json` file
+Add this part to your project's `composer.json` file
 
 ```composer
 "repositories": [
@@ -23,11 +23,13 @@ Add the extension to your site's yml configuration
 
 Page:
   extensions:
-    - CMSEditLink
+    - evanshunt\CMSEditLink\CMSEditLink
 
 ```
 
-Then on your `Page.ss` or if you only want to enabel it on specific pages, then only add it to those pages' templates; add `$EditURL()`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
+On `Page.php` controller add `use evanshunt\CMSEditLink;`
+
+Then on your `Page.ss` or if you only want to enabel it on specific pages; then only add it to those pages' templates, add `$EditURL`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
 
 Changelog:
 
