@@ -1,5 +1,5 @@
 <?php
-namespace evanshunt\CMSEditLink;
+namespace evanshunt\FrontEndEditLink;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\ORM\FieldType\DBField;
@@ -9,10 +9,10 @@ use SilverStripe\Security\Security;
 
 use SilverStripe\Dev\Debug;
 
-class CMSEditLink extends DataExtension
+class FrontEndEditLink extends DataExtension
 {
 
-    public function EditURL(){
+    public function EditLink(){
 
         if ($member = Security::getCurrentUser()) {
             return DBField::create_field('HTMLFragment',"<a href='admin/pages/edit/show/".$this->owner->ID."/' style='

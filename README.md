@@ -10,12 +10,12 @@ Add this part to your project's `composer.json` file
 "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/evanshunt/CMSEditLink"
+            "url": "https://github.com/evanshunt/FrontEndEditLink"
         }
     ],
 ```
 
-Then from where you have the `composer.json` file run `composer require evanshunt/CMSEditLink`
+Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink`
 
 Add the extension to your site's yml configuration
 
@@ -23,14 +23,15 @@ Add the extension to your site's yml configuration
 
 Page:
   extensions:
-    - evanshunt\CMSEditLink\CMSEditLink
+    - evanshunt\FrontEndEditLink\FrontEndEditLink
 
 ```
 
-On `Page.php` controller add `use evanshunt\CMSEditLink;`
+On `Page.php` controller add `use evanshunt\FrontEndEditLink;`
 
-Then on your `Page.ss` or if you only want to enabel it on specific pages; then only add it to those pages' templates, add `$EditURL`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
+Then on your `Page.ss` or if you only want to enabel it on specific pages; then only add it to those pages' templates, add `$EditLink`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
 
 Changelog:
 
+- 2020-06-25: renamed module
 - 2020-06-22: initial commit
