@@ -2,6 +2,8 @@
 
 A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.
 
+This is SilverStripe 3 supported release
+
 ## Setup
 
 Add this part to your project's `composer.json` file
@@ -15,7 +17,7 @@ Add this part to your project's `composer.json` file
     ],
 ```
 
-Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink`
+Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink:^1`
 
 Add the extension to your site's yml configuration
 
