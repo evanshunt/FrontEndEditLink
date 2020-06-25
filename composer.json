@@ -15,8 +15,8 @@
 		"issues": "http://github.com/evanshunt/FrontEndEditLink/issues"
 	},
 	"require": {
-		"silverstripe/framework": "^4",
-		"silverstripe/cms": "^4"
+		"silverstripe/framework": "^3",
+		"silverstripe/cms": "^3"
 	},
 	"autoload": {
 		"psr-4": {

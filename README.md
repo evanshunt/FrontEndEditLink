@@ -23,11 +23,9 @@ Add the extension to your site's yml configuration
 
 Page:
   extensions:
-    - evanshunt\FrontEndEditLink\FrontEndEditLink
+    - FrontEndEditLink
 
 ```
-
-On `Page.php` controller add `use evanshunt\FrontEndEditLink;`
 
 Then on your `Page.ss` or if you only want to enabel it on specific pages; then only add it to those pages' templates, add `$EditLink`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
 
