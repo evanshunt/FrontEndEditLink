@@ -1,5 +1,5 @@
 {
-	"name": "evanshunt/CMSEditLink",
+	"name": "evanshunt/FrontEndEditLink",
 	"description": "A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.",
 	"type": "silverstripe-vendormodule",
 	"homepage": "http://github.com/evanshunt/FrontEndEditLink",
