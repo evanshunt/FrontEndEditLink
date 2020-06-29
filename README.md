@@ -7,17 +7,6 @@ This is SilverStripe 4 supported release
 
 ## Setup
 
-Add this part to your project's `composer.json` file
-
-```composer
-"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/evanshunt/FrontEndEditLink"
-        }
-    ],
-```
-
 Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink:^2`
 
 Add the extension to your site's yml configuration
