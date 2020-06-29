@@ -8,14 +8,6 @@ This is SilverStripe 3 supported release
 
 Add this part to your project's `composer.json` file
 
-```composer
-"repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/evanshunt/FrontEndEditLink"
-        }
-    ],
-```
 
 Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink:^1`
 

@@ -1,9 +1,9 @@
 {
-	"name": "evanshunt/FrontEndEditLink",
+	"name": "evanshunt/frontendeditlink",
 	"description": "A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.",
 	"type": "silverstripe-vendormodule",
-	"homepage": "http://github.com/evanshunt/FrontEndEditLink",
-	"keywords": ["silverstripe", "FrontEndEditLink"],
+	"homepage": "http://github.com/evanshunt/frontendeditlink",
+	"keywords": ["silverstripe", "frontendeditlink"],
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
@@ -12,7 +12,7 @@
 		}
 	],
 	"support": {
-		"issues": "http://github.com/evanshunt/FrontEndEditLink/issues"
+		"issues": "http://github.com/evanshunt/frontendeditlink/issues"
 	},
 	"require": {
 		"silverstripe/framework": "^3",
@@ -20,7 +20,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"evanshunt\\FrontEndEditLink\\": "src/"
+			"evanshunt\\frontendeditlink\\": "src/"
 		}
 	}
 }
