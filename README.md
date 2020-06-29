@@ -7,7 +7,7 @@ This is SilverStripe 4 supported release
 
 ## Setup
 
-Then from where you have the `composer.json` file run `composer require evanshunt/FrontEndEditLink:^2`
+Then from where you have the `composer.json` file run `composer require evanshunt/frontendeditlink:^2`
 
 Add the extension to your site's yml configuration
 
