@@ -15,7 +15,7 @@ Add the extension to your site's yml configuration
 
 Page:
   extensions:
-    - evanshunt\FrontEndEditLink\FrontEndEditLink
+    - evanshunt\frontendeditlink\FrontEndEditLink
 
 ```
 
