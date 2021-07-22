@@ -24,6 +24,6 @@ Page:
 Then on your `Page.ss` or if you only want to enabel it on specific pages; then only add it to those pages' templates, add `$EditLink`. This will render a small link on the page. Right now it's positioned fixed at the bottom left corner of the page.
 
 Changelog:
-
+- 2021-07-22: uses link method rather than manually building link
 - 2020-06-25: renamed module
 - 2020-06-22: initial commit
