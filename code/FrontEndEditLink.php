@@ -7,7 +7,7 @@ class FrontEndEditLink extends DataExtension
     public function EditLink(){
 
         if ( $member = Member::currentUserID() ) {
-            return "<a href='admin/pages/edit/show/".$this->owner->ID."/' style='
+            return "<a href='".$this->owner->CMSEditLink()."/' style='
             position: fixed;
             z-index: 1000;
             bottom: 0;
