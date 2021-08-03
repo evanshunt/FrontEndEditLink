@@ -24,7 +24,7 @@ class FrontEndEditLink extends DataExtension
                 padding: 0 3px;
                 font-size: 12px;
                 color: #fff;
-                ' target='_blank' rel='nofollow'>Edit</a>"
+                'class='frontendeditlink' target='_blank' rel='nofollow'>Edit</a>"
             );
         }
 
