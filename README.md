@@ -1,3 +1,5 @@
+## Consider using https://github.com/jonom/silverstripe-betternavigator instead as it provides more advanced options
+
 ## Description
 
 A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.
