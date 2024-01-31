@@ -4,7 +4,7 @@
 
 A small SilverStripe module that provides logged in users with a front-end `Edit` link. This helps in quickly editing a pages and finding it on the SiteTree instead of hunting for it.
 
-This is SilverStripe 4 supported release
+This is SilverStripe 5 supported release
 
 
 ## Setup
